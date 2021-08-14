@@ -259,14 +259,14 @@ MonoBehaviour:
       type: 3}
     name: jasmyng tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: 184947299614187853, guid: bd4518c12c9c2584d94fdb7f665eae2a, type: 3}
     name: ceylong tea
     description: 
-    meltTemperature: 0
+    meltTemperature: 800
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
@@ -274,80 +274,80 @@ MonoBehaviour:
       type: 3}
     name: bolong tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -8362602881052143106, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -3202966353781376089, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
-    freezeTemperature: 0
+    meltTemperature: 800
+    meltItemType: 29
+    freezeTemperature: 800
     freezeItemType: 0
   - sprite: {fileID: 5717860663560468995, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ceylong milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: 8152852456837299576, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: 9214527340654990288, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -3998773593875168313, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng fish egg milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: 2666837487265513188, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ceylong fish egg milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -1160798593736239838, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong fish egg milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -2761068690825735088, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot fish egg milk tea
     description: 
-    meltTemperature: 0
-    meltItemType: 0
+    meltTemperature: 800
+    meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
   - sprite: {fileID: -7162530431733920896, guid: bd4518c12c9c2584d94fdb7f665eae2a,
@@ -373,6 +373,30 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+  - sprite: {fileID: -1164294437156975824, guid: bd4518c12c9c2584d94fdb7f665eae2a,
+      type: 3}
+    name: carbon tea
+    description: 
+    meltTemperature: 0
+    meltItemType: 0
+    freezeTemperature: 0
+    freezeItemType: 0
+  - sprite: {fileID: 8459678078700780562, guid: bd4518c12c9c2584d94fdb7f665eae2a,
+      type: 3}
+    name: carbon milk tea
+    description: 
+    meltTemperature: 0
+    meltItemType: 0
+    freezeTemperature: 0
+    freezeItemType: 0
+  - sprite: {fileID: -4818608432900340472, guid: bd4518c12c9c2584d94fdb7f665eae2a,
+      type: 3}
+    name: 
+    description: 
+    meltTemperature: 0
+    meltItemType: 0
+    freezeTemperature: 0
+    freezeItemType: 0
 --- !u!4 &1952033
 Transform:
   m_ObjectHideFlags: 0
@@ -385,7 +409,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &28316286
 GameObject:
@@ -472,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 5701121111931684476, guid: 91ea25edd47d9d047942a58c31ce2927,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5701121111931684476, guid: 91ea25edd47d9d047942a58c31ce2927,
         type: 3}
@@ -566,7 +590,7 @@ Transform:
   - {fileID: 723553965}
   - {fileID: 613376914}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &469326514
 GameObject:
@@ -784,7 +808,7 @@ PrefabInstance:
     - target: {fileID: 5840212463550365742, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5840212463550365742, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
@@ -904,6 +928,75 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1001 &633500585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1228414989030119397, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_Name
+      value: woodenChair
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228414989030119399, guid: 60b97bbe6698d5c48895f5d2c8597cd3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60b97bbe6698d5c48895f5d2c8597cd3, type: 3}
 --- !u!1 &723553964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1165,75 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+--- !u!1001 &839688640
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520801, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8427438800773520803, guid: d7a81ec2ff950c14c8c87969b585126c,
+        type: 3}
+      propertyPath: m_Name
+      value: woodenTable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7a81ec2ff950c14c8c87969b585126c, type: 3}
 --- !u!1 &1036965621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1263,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1036965623
 MonoBehaviour:
@@ -1226,7 +1388,7 @@ PrefabInstance:
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
@@ -1530,7 +1692,7 @@ PrefabInstance:
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
@@ -1614,7 +1776,7 @@ PrefabInstance:
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
@@ -1698,7 +1860,7 @@ PrefabInstance:
     - target: {fileID: 5840212463550365742, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5840212463550365742, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
@@ -1853,7 +2015,7 @@ PrefabInstance:
     - target: {fileID: 59656807214895519, guid: a8c9bfa6d5f85da4782966b1579b639e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 59656807214895519, guid: a8c9bfa6d5f85da4782966b1579b639e,
         type: 3}
@@ -1907,7 +2069,7 @@ PrefabInstance:
     - target: {fileID: 1002217721796700225, guid: 1f0100556a05a094abec10e7702f0c36,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1002217721796700225, guid: 1f0100556a05a094abec10e7702f0c36,
         type: 3}
@@ -1917,7 +2079,7 @@ PrefabInstance:
     - target: {fileID: 1002217721796700225, guid: 1f0100556a05a094abec10e7702f0c36,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 1002217721796700225, guid: 1f0100556a05a094abec10e7702f0c36,
         type: 3}
@@ -1976,7 +2138,7 @@ PrefabInstance:
     - target: {fileID: 6055418506759167168, guid: d61aeb8fbbdbc4847b8e9c6bf2c2970a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6055418506759167168, guid: d61aeb8fbbdbc4847b8e9c6bf2c2970a,
         type: 3}

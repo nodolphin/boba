@@ -27,6 +27,8 @@ public class PlayerMovement : Storage
         int moveY = (int) Input.GetAxisRaw("Vertical");
 
         bool pressedQ = Input.GetKeyDown(KeyCode.Q);
+        bool pressedK = Input.GetKeyDown(KeyCode.K);
+
         bool isMoving = moveX != 0 || moveY != 0;
         bool isCarrying = storedItem.itemType != ItemType.NONE;
 
@@ -52,9 +54,7 @@ public class PlayerMovement : Storage
         
         //DELETE
         if (pressedQ)
-        {
             WithdrawItem(moveX, moveY);
-        }
 
         //DELETE
 
@@ -72,5 +72,10 @@ public class PlayerMovement : Storage
             if (storedItem.itemType == ItemType.NONE) storage.WithdrawItem(ref storedItem);
             else storage.StoreItem(ref storedItem);
         }
+    }
+
+    private void RevertToRegularSpeed()
+    {
+
     }
 }

@@ -31,6 +31,8 @@ public class Globals : MonoBehaviour
     public static Globals instance = null;
     
     [SerializeField] private ItemInfo[] itemInfos;
+
+    public LayerMask blockingLayer;
     
     public Dictionary<string, ItemType> itemCombinations = new Dictionary<string, ItemType>()
     {

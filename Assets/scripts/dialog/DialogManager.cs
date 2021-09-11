@@ -4,17 +4,21 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-    public const int lettersPerSecond = 3;
+    public const float lettersPerSecond = 10f;
     public const float inverseLettersPerSecond = 1f / lettersPerSecond;
 
     public GameObject dialogGameObject;
     public Text dialogText;
 
+    void Start() {ShowDialog("fart fart fart");}
+
     public void ShowDialog(in string dialog)
     {
+        dialogGameObject.SetActive(true);
         StartCoroutine(TypeDialog(dialog));
     }
 
+    //REFACTOR
     public IEnumerator TypeDialog(string dialog)
     {
         string displayedDialog = "";
@@ -23,7 +27,20 @@ public class DialogManager : MonoBehaviour
         {
             displayedDialog += c;
             dialogText.text = displayedDialog;
+
+            // WTF is this bullshit
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                dialogText.text = dialog;
+                yield return new WaitForSeconds(1);
+                break;
+            }
+            
             yield return new WaitForSeconds(inverseLettersPerSecond);
         }
+
+        while (!Input.GetKeyDown(KeyCode.Q)) yield return null;
+
+        dialogGameObject.SetActive(false);
     }
 }

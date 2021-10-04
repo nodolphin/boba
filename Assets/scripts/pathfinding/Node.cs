@@ -1,14 +1,26 @@
 using UnityEngine;
-using System.Collections;
-
 public class Node
 {
-    public bool _walkable;
-    public Vector2 _worldPosition;
+    public bool walkable;
+    public Vector2 worldPosition;
+    public int gridX, gridY;
 
-    public Node(bool walkable, Vector2 worldPosition)
+    public int gCost, hCost;
+    public Node parent;
+
+    public Node(bool walkable, Vector2 worldPosition, int gridX, int gridY)
     {
-        this._walkable = walkable;
-        this._worldPosition = worldPosition;
+        this.walkable = walkable;
+        this.worldPosition = worldPosition;
+        this.gridX = gridX;
+        this.gridY = gridY;
+    }
+
+    public int fCost
+    {
+        get 
+        {
+            return gCost + fCost;
+        }
     }
 }

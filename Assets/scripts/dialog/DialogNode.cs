@@ -6,8 +6,5 @@ public class DialogNode
     public string text;
     public DialogNode[] dialogNodes;
 
-    public bool HasNextNode()
-    {
-        return dialogNodes.Length != 0;
-    }
+    public bool HasNextNode() { return dialogNodes.Length != 0; }
 }

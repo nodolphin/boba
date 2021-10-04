@@ -11,7 +11,7 @@ public struct ItemInfo
     public string name;
 
     [TextArea] public string description;
-
+    
     [Header("Melt")]
     public short meltTemperature;
     public ItemType meltItemType;
@@ -19,11 +19,10 @@ public struct ItemInfo
     [Header("Freeze")]
     public short freezeTemperature;
     public ItemType freezeItemType;
-}
 
-public struct CookableInfo
-{
-    public ItemInfo itemInfo;
+    [Header("Flavor")]
+    public Flavor initialFlavor;
+    public Flavor perfectFlavor;
 }
 
 public class Globals : MonoBehaviour

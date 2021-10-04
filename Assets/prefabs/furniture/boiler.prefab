@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5701121111931684479}
   - component: {fileID: 5701121111931684477}
   - component: {fileID: -2119831895131669811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: boiler
   m_TagString: Storage
   m_Icon: {fileID: 0}

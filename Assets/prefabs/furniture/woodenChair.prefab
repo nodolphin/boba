@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1228414989030119399}
   - component: {fileID: 1228414989030119396}
-  - component: {fileID: -302026629753322801}
   - component: {fileID: 8705591107941896915}
   m_Layer: 0
   m_Name: woodenChair
@@ -48,6 +47,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -84,26 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &-302026629753322801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228414989030119397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0248217597f1ee47bc2473a6eb53a96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontSprite: {fileID: 8632782752606789037, guid: 0b22e968e6fffb94e8ca50c8cb157469,
-    type: 3}
-  backSprite: {fileID: -7741028847787921026, guid: 0b22e968e6fffb94e8ca50c8cb157469,
-    type: 3}
-  leftSprite: {fileID: 7566899253062582031, guid: 0b22e968e6fffb94e8ca50c8cb157469,
-    type: 3}
-  rightSprite: {fileID: 4962202238060913595, guid: 0b22e968e6fffb94e8ca50c8cb157469,
-    type: 3}
 --- !u!61 &8705591107941896915
 BoxCollider2D:
   m_ObjectHideFlags: 0

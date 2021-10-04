@@ -160,6 +160,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -4863336276314997047, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: fish egg
@@ -168,6 +176,14 @@ MonoBehaviour:
     meltItemType: 26
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 2
+      aroma: 1
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -3860515135949180240, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: milk
@@ -176,6 +192,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 2
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -6734734834790175173, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: sugar
@@ -184,6 +208,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 5
+      aroma: 1
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -6618134905481563395, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: brown sugar
@@ -192,6 +224,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 4
+      aroma: 1
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -3913403896141990040, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: honey
@@ -200,6 +240,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 5
+      aroma: 3
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -1393458340566893849, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: cream
@@ -208,6 +256,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 3
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -3571245019227250870, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ice
@@ -216,6 +272,14 @@ MonoBehaviour:
     meltItemType: 8
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: -1
+      sugar: -1
+      aroma: -1
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 2451324180514708912, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: water
@@ -224,6 +288,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 273
     freezeItemType: 7
+    initialFlavor:
+      spice: -1
+      sugar: -1
+      aroma: -1
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -5990679910767757089, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng tea leaves
@@ -232,6 +304,14 @@ MonoBehaviour:
     meltItemType: 27
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 3
+      sugar: 0
+      aroma: 6
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 5821263585957794077, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ceylong tea leaves
@@ -240,6 +320,14 @@ MonoBehaviour:
     meltItemType: 27
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 4
+      sugar: 2
+      aroma: 7
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -5948282585747812326, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong tea leaves
@@ -248,6 +336,14 @@ MonoBehaviour:
     meltItemType: 27
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 276814819640733396, guid: bd4518c12c9c2584d94fdb7f665eae2a, type: 3}
     name: paroot tea leaves
     description: 
@@ -255,6 +351,14 @@ MonoBehaviour:
     meltItemType: 27
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -267251719090833575, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng tea
@@ -263,6 +367,14 @@ MonoBehaviour:
     meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 184947299614187853, guid: bd4518c12c9c2584d94fdb7f665eae2a, type: 3}
     name: ceylong tea
     description: 
@@ -270,6 +382,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 6552564986207930973, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong tea
@@ -278,6 +398,14 @@ MonoBehaviour:
     meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -8362602881052143106, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot tea
@@ -286,6 +414,14 @@ MonoBehaviour:
     meltItemType: 28
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -3202966353781376089, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng milk tea
@@ -294,6 +430,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 800
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 5717860663560468995, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ceylong milk tea
@@ -302,6 +446,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 8152852456837299576, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong milk tea
@@ -310,6 +462,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 9214527340654990288, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot milk tea
@@ -318,6 +478,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -3998773593875168313, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: jasmyng fish egg milk tea
@@ -326,6 +494,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 2666837487265513188, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: ceylong fish egg milk tea
@@ -334,6 +510,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -1160798593736239838, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: bolong fish egg milk tea
@@ -342,6 +526,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -2761068690825735088, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: paroot fish egg milk tea
@@ -350,6 +542,14 @@ MonoBehaviour:
     meltItemType: 29
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -7162530431733920896, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: raw fish eggs
@@ -358,6 +558,14 @@ MonoBehaviour:
     meltItemType: 1
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 2173216817343420227, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: gunk
@@ -366,6 +574,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 731597103121526280, guid: bd4518c12c9c2584d94fdb7f665eae2a, type: 3}
     name: carbon
     description: 
@@ -373,6 +589,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -1164294437156975824, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: carbon tea
@@ -381,6 +605,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: 8459678078700780562, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: carbon milk tea
@@ -389,6 +621,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   - sprite: {fileID: -4818608432900340472, guid: bd4518c12c9c2584d94fdb7f665eae2a,
       type: 3}
     name: 
@@ -397,6 +637,14 @@ MonoBehaviour:
     meltItemType: 0
     freezeTemperature: 0
     freezeItemType: 0
+    initialFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
+    perfectFlavor:
+      spice: 0
+      sugar: 0
+      aroma: 0
   blockingLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -578,7 +826,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &386864798
 Transform:
   m_ObjectHideFlags: 0
@@ -612,7 +860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &469326515
 RectTransform:
   m_ObjectHideFlags: 0
@@ -683,7 +931,6 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: mainCamera
   m_TagString: MainCamera
@@ -699,26 +946,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
---- !u!114 &519420030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 16
-  m_RefResolutionX: 1920
-  m_RefResolutionY: 1080
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -791,7 +1018,7 @@ PrefabInstance:
     - target: {fileID: 1951388232642851326, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
       propertyPath: storedItem.itemType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1951388232642851326, guid: d9dffd261eec7ea43a5d026339f744b6,
         type: 3}
@@ -1341,19 +1568,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 9b839528e7e0f8148bd143d4a29bb995, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: 88144bfeb8d4f0b43b481faee0cac8bf, type: 3}
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welcome to my boba shop!
+  m_Text: 
 --- !u!222 &1038988343
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1387,7 +1614,7 @@ PrefabInstance:
     - target: {fileID: 6387199551535748818, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
       propertyPath: storedItem.itemType
-      value: 2
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8635568844456831642, guid: 1da5ca05e4c91274a8f535e8ba590657,
         type: 3}
@@ -1750,6 +1977,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1da5ca05e4c91274a8f535e8ba590657, type: 3}
+--- !u!1 &1385788828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385788830}
+  - component: {fileID: 1385788829}
+  m_Layer: 0
+  m_Name: pathfinding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1385788829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385788828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffdaabe5ea02cef47b99b6b17f5ae894, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unwalkableMask:
+    serializedVersion: 2
+    m_Bits: 0
+  gridWorldSize: {x: 80, y: 80}
+  nodeRadius: 8
+--- !u!4 &1385788830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385788828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1440056573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1918,6 +2193,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9dffd261eec7ea43a5d026339f744b6, type: 3}
+--- !u!1 &1630673186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7024041985952443961, guid: b4026a0e97ae13d468b516d24acd7231,
+    type: 3}
+  m_PrefabInstance: {fileID: 7024041985715714410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1630673192
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630673186}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 8, y: 10}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &2068863229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2213,10 +2520,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 924026261421499941, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 924026261421499941, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 301298269
+      objectReference: {fileID: 0}
+    - target: {fileID: 924026261421499941, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145413477538488550, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3145413477538488550, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4206535821643738142, guid: b4026a0e97ae13d468b516d24acd7231,
         type: 3}
       propertyPath: drinkOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5753325673222890643, guid: b4026a0e97ae13d468b516d24acd7231,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 7024041985952443961, guid: b4026a0e97ae13d468b516d24acd7231,
         type: 3}

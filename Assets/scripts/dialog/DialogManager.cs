@@ -10,8 +10,6 @@ public class DialogManager : MonoBehaviour
     public GameObject dialogGameObject;
     public Text dialogText;
 
-    void Start() {ShowDialog("fart fart fart");}
-
     public void ShowDialog(in string dialog)
     {
         dialogGameObject.SetActive(true);
@@ -32,7 +30,7 @@ public class DialogManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 dialogText.text = dialog;
-                yield return new WaitForSeconds(1);
+                yield return new WaitForSeconds(0.1f);
                 break;
             }
             

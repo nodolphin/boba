@@ -105,6 +105,7 @@ public class Item
         {
             ItemType combinedItem = Globals.instance.itemCombinations[combineKey];
             this.SetItemType(combinedItem);  
+
             this.CombineTemperature(1, item.GetCount(), item.GetTemperature());
 
             item.Reset();   

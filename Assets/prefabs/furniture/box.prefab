@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4654535661903070509}
   - component: {fileID: 6387199551535748818}
   - component: {fileID: 8979036484445299613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -101,6 +102,10 @@ MonoBehaviour:
     count: 0
     temperatureInKelvin: 0
   maxCount: 3
+  uiItem:
+    itemType: 0
+    count: 0
+    temperatureInKelvin: 0
   temperatureChangeRate: 0.1
   temperatureToApproach: 300
   carriedObject: {fileID: 6280275980678285357, guid: 2348d87d1a9978e40a5eebcf32bfce44,

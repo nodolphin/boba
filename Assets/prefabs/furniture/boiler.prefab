@@ -132,7 +132,7 @@ MonoBehaviour:
     itemType: 0
     count: 0
     temperatureInKelvin: 0
-  temperatureChangeRate: 10
+  temperatureChangeRate: 50
   temperatureToApproach: 1000
   carriedObject: {fileID: 6280275980678285357, guid: 2348d87d1a9978e40a5eebcf32bfce44,
     type: 3}

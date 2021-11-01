@@ -73,17 +73,17 @@ public class Grid : MonoBehaviour
         return grid[x, y];
     }
 
-    void OnDrawGizmos()
-    {
-        Gizmos.DrawWireCube(transform.position, new Vector3 (gridWorldSize.x, gridWorldSize.y, 1));
+    // void OnDrawGizmos()
+    // {
+    //     Gizmos.DrawWireCube(transform.position, new Vector3 (gridWorldSize.x, gridWorldSize.y, 1));
 
-        if (grid != null)
-        {
-            foreach (Node n in grid)
-            {
-                Gizmos.color = n.walkable? Color.white : Color.red;
-                Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter-.1f));
-            }
-        }
-    }
+    //     if (grid != null)
+    //     {
+    //         foreach (Node n in grid)
+    //         {
+    //             Gizmos.color = n.walkable? Color.white : Color.red;
+    //             Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter-.1f));
+    //         }
+    //     }
+    // }
 }
